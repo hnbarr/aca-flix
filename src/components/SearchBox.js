@@ -2,7 +2,10 @@ import React, {Component} from "react";
 
 class SearchBox extends Component {
   constructor() {
-    super();
+    super()
+    this.state({
+      searchTerm: ''
+    })
   }
   render() {
     return (
@@ -24,3 +27,4 @@ class SearchBox extends Component {
 }
 export default SearchBox;
 
+// onChange={this.setState({searchTerm: input.value})}

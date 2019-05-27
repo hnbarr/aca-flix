@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import App from '../App';
-import { loadMyMovieList, myMovieListLoaded } from '../actions';
+import { loadMyMovieList } from '../actions';
 
 
 const mapStateToProps = (state)=> {

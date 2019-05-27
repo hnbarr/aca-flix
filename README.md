@@ -7,7 +7,7 @@
 * Sign up for [themoviedb.org](https://www.themoviedb.org/documentation/api)
 * Fork, Clone, npm install, npm start
 * [Get your api key](https://www.themoviedb.org/settings/api)
-<!-- https://api.themoviedb.org/3/movie/550?api_key=89dfa45b0ad821404ff430ecb24862aa -->
+<!-- api_key=89dfa45b0ad821404ff430ecb24862aa -->
 * [Read the instructions](https://developers.themoviedb.org/3/getting-started/introduction)
 
 ### Do
@@ -16,7 +16,7 @@
 * Create functional components as defined by comments in the jsx in App.js,  such as  {/*  <Navigation>   */}
 * Import and use components in App.js
 * Navigation.js
-* UserProfile.js -->
+* UserProfile.js
 
 ### State
 * In state.js file
@@ -76,7 +76,8 @@
     * make a fetch DELETE to “/movies/” + id
     * on complete dispatch to loadMyMovieList()
 
-
+<!-- stopped here -->
+<!-- api_key=89dfa45b0ad821404ff430ecb24862aa -->
 ### Create Containers
 * import connect from react-redux
 * mapStateToProps
@@ -95,7 +96,7 @@
 * mapStateToProps for props `searchResults` and `myMovieList` to state of the same name
 * mapDisptachToProps for `loadMyMovieList`
 
-### ListToggleContainer
+### ListToggleContainer.js
 * import ListToggle
 * import action `saveMyMovie` and `removeMyMovie`
 * mapDisptachToProps for `saveMyMovie` and `removeMyMovie`
