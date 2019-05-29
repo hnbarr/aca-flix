@@ -102,6 +102,7 @@
 * mapDisptachToProps for `saveMyMovie` and `removeMyMovie`
 * Change Item.js to use ListToggleContainer instead of ListToggle
 
+<!-- did these below -->
 ### SearchBox.js
 * In the constructor assign a state property with an object with key “searchTerm”, set to blank string “”
 * Add onChange to the input element

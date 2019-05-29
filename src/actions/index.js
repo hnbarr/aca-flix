@@ -20,7 +20,7 @@ export const myMovieListLoaded = (movies) => {
 
 export const loadSearch = (searchTerm) => {
     return function (dispatch) {
-      fetch(" https://api.themoviedb.org/3/search/multi?query=searchTerm&api_key=89dfa45b0ad821404ff430ecb24862aa")
+      fetch(`https://api.themoviedb.org/3/search/multi?query=${searchTerm}&api_key=89dfa45b0ad821404ff430ecb24862aa`)
         .then((res) => {
             return res.json();})
         .then((movies) => {
