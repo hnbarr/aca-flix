@@ -3,13 +3,12 @@ import { saveMyMovie, removeMyMovie } from '../actions';
 import ListToggle from '../components/ListToggle';
 
 const mapDispatchToProps= (dispatch) => {
-
     return {
-        saveMyMovie() {
-            dispatch(saveMyMovie())
+        saveMyMovie(movie) {
+            dispatch(saveMyMovie(movie))
         },
-        removeMyMovie() {
-            dispatch(removeMyMovie())
+        removeMyMovie(id) {
+            dispatch(removeMyMovie(id))
         }
     }
 }

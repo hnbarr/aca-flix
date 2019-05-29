@@ -14,7 +14,8 @@ class SearchBox extends Component {
             (e) => {
               /* this is so th search will only be done on enter key */
               if (this.props.loadSearch && e.key === "Enter" && this.state.searchTerm) {
-                this.props.loadSearch(this.state.searchTerm);
+                this.props.loadSearch(this.state.searchTerm),
+                e.target.value = ''; //to clear out box, for new search, when enter has been pressed.
               }
             }
           } 
