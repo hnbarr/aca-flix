@@ -76,7 +76,6 @@
     * make a fetch DELETE to “/movies/” + id
     * on complete dispatch to loadMyMovieList()
 
-<!-- stopped here -->
 <!-- api_key=89dfa45b0ad821404ff430ecb24862aa -->
 ### Create Containers
 * import connect from react-redux
@@ -102,7 +101,6 @@
 * mapDisptachToProps for `saveMyMovie` and `removeMyMovie`
 * Change Item.js to use ListToggleContainer instead of ListToggle
 
-<!-- did these below -->
 ### SearchBox.js
 * In the constructor assign a state property with an object with key “searchTerm”, set to blank string “”
 * Add onChange to the input element
