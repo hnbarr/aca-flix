@@ -71,7 +71,7 @@
     * value = make sure to assign the value of movies.results to get the array of movies from movie db
 * saveMyMovie(movie)
     * make fetch POST to “/movies”
-    * on complete dispatch to loadMyMovieList
+    * on complete dispatch to loadMyMovieList()
 * removeMyMovie(id)
     * make a fetch DELETE to “/movies/” + id
     * on complete dispatch to loadMyMovieList()
