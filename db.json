@@ -1,27 +1,133 @@
 {
   "movies": [
     {
-      "original_name": "A Discovery of Witches",
-      "id": 77236,
-      "media_type": "tv",
-      "name": "A Discovery of Witches",
-      "vote_count": 55,
-      "vote_average": 7.46,
-      "poster_path": "/tSUoJXxI45KUhqe1qiD2gNtJgzd.jpg",
-      "first_air_date": "2018-09-14",
-      "popularity": 38.576,
+      "vote_average": 7.8,
+      "vote_count": 61,
+      "id": 439058,
+      "video": false,
+      "media_type": "movie",
+      "title": "Hey Arnold! The Jungle Movie",
+      "popularity": 5.042,
+      "poster_path": "/r42WcL8xjH3ThQywlSfWgoW4GOU.jpg",
+      "original_language": "en",
+      "original_title": "Hey Arnold! The Jungle Movie",
       "genre_ids": [
-        10765,
+        35,
+        16,
+        12
+      ],
+      "backdrop_path": "/eWMHecmPAbOCqALSrq45Jqj4BhF.jpg",
+      "adult": false,
+      "overview": "An upcoming two-hour American animated television film split into two parts. Based on Craig Bartlett's Hey Arnold! TV series, it will serve as a sequel to the series finale in which Arnold found his father's journal and read about the life of his scientist parents, including their first meeting, birthing him, and a map showing the route they took to the San Lorenzo before they disappeared.",
+      "release_date": "2017-11-23",
+      "_id": 1
+    },
+    {
+      "vote_average": 5.3,
+      "vote_count": 6,
+      "id": 464979,
+      "video": false,
+      "media_type": "movie",
+      "title": "Hey Jude",
+      "popularity": 3.755,
+      "poster_path": "/hEzbdDDcq95DP33W3e6oUpSSUF1.jpg",
+      "original_language": "ml",
+      "original_title": "ഹേയ് ജൂഡ്",
+      "genre_ids": [
         18,
-        9648
+        10749
+      ],
+      "backdrop_path": "/lhxe4ZWLNLXuOTGBI9c8QDGSPFX.jpg",
+      "adult": false,
+      "overview": "Hey Jude celebrates the innate beautiful things in human beings and life as a whole. For the world, Jude and his thought processes seem like a puzzle. However, certain unforeseen incidents take him to places he has never been to and experiences beyond his imaginations that help him shed his inhibitions.",
+      "release_date": "2018-02-02",
+      "_id": 2
+    },
+    {
+      "vote_average": 2,
+      "vote_count": 1,
+      "id": 243086,
+      "video": false,
+      "media_type": "movie",
+      "title": "Hey Babe!",
+      "popularity": 2.005,
+      "poster_path": "/ympeXuc5ZRG3eB1p1n6RNOPm2CH.jpg",
+      "original_language": "en",
+      "original_title": "Hey Babe!",
+      "genre_ids": [
+        10749,
+        35,
+        18
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "Every Friday, Abigail religiously consults Madame Lola, a fortune teller. The old shrewd lady takes advantage of Abigail’s extreme grip on superstition by giving her signs about the perfect man for her. Nelson also takes advantage on the situation and paid Madame Lola to give Abigail signs that would make her believe that he is the one for her. Eventually through Nelson’s perseverance, and Madame Lola’s bogus prediction, Abigail started to believe that Nelson is her Mr. Right. But there is no secret that remains uncover.",
+      "release_date": "1999-08-25",
+      "_id": 3
+    },
+    {
+      "vote_average": 5.3,
+      "vote_count": 6,
+      "id": 464979,
+      "video": false,
+      "media_type": "movie",
+      "title": "Hey Jude",
+      "popularity": 3.755,
+      "poster_path": "/hEzbdDDcq95DP33W3e6oUpSSUF1.jpg",
+      "original_language": "ml",
+      "original_title": "ഹേയ് ജൂഡ്",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "backdrop_path": "/lhxe4ZWLNLXuOTGBI9c8QDGSPFX.jpg",
+      "adult": false,
+      "overview": "Hey Jude celebrates the innate beautiful things in human beings and life as a whole. For the world, Jude and his thought processes seem like a puzzle. However, certain unforeseen incidents take him to places he has never been to and experiences beyond his imaginations that help him shed his inhibitions.",
+      "release_date": "2018-02-02",
+      "_id": 4
+    },
+    {
+      "vote_average": 7.8,
+      "vote_count": 61,
+      "id": 439058,
+      "video": false,
+      "media_type": "movie",
+      "title": "Hey Arnold! The Jungle Movie",
+      "popularity": 5.042,
+      "poster_path": "/r42WcL8xjH3ThQywlSfWgoW4GOU.jpg",
+      "original_language": "en",
+      "original_title": "Hey Arnold! The Jungle Movie",
+      "genre_ids": [
+        35,
+        16,
+        12
+      ],
+      "backdrop_path": "/eWMHecmPAbOCqALSrq45Jqj4BhF.jpg",
+      "adult": false,
+      "overview": "An upcoming two-hour American animated television film split into two parts. Based on Craig Bartlett's Hey Arnold! TV series, it will serve as a sequel to the series finale in which Arnold found his father's journal and read about the life of his scientist parents, including their first meeting, birthing him, and a map showing the route they took to the San Lorenzo before they disappeared.",
+      "release_date": "2017-11-23",
+      "_id": 5
+    },
+    {
+      "original_name": "Hey Duggee",
+      "id": 74280,
+      "media_type": "tv",
+      "name": "Hey Duggee",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/y0r27LkhX6AZNqo2Q5FUYmwi5wz.jpg",
+      "first_air_date": "2015-01-12",
+      "popularity": 3.191,
+      "genre_ids": [
+        16
       ],
       "original_language": "en",
-      "backdrop_path": "/fftR6mAKZMNKhmuHyG4YkyTyl1U.jpg",
-      "overview": "Diana Bishop, historian and witch, accesses Ashmole 782 and knows she must solve its mysteries. She is offered help by the enigmatic Matthew Clairmont, but he's a vampire and witches should never trust vampires.",
+      "backdrop_path": "/pbtj4jTJb6Y6a0SD3jXz739ljCg.jpg",
+      "overview": "Animated preschool series about a clubhouse that is run by a big dog called Duggee.",
       "origin_country": [
         "GB"
       ],
-      "_id": 1
+      "_id": 6
     }
   ],
   "posts": [
