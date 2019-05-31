@@ -2,7 +2,7 @@ export const loadMyMovieList = () => {
     return function (dispatch) {
       fetch("/movies")
         .then((res) => {
-            return res.json();})
+            return res.json()})
         .then((movies) => {
             dispatch(myMovieListLoaded(movies));
         });
@@ -34,16 +34,18 @@ export const searchLoaded = (movies) => {
 }
 
 
-// not sure how to get to my list?
-
 export const saveMyMovie = (movie) => {
     return function (dispatch) {
     fetch("/movies", {
-      method: "post"
+      method: "post",
+      headers: {
+        'content-type': 'application/json'
+      },
+      body: JSON.stringify(movie)
     })
-      .then((res) => {
-        return res.json();})
+      .then(res => res.json())
       .then((movies) => {
+        console.log('movies: ', movies)
         dispatch(loadMyMovieList());
     });
   }

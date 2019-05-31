@@ -12,6 +12,7 @@ const myMovieList = (state =[], action) => {
   const searchResults = (state=[], action) => {
     switch (action.type) {
       case 'SEARCH_RESULTS_LOADED':
+      console.log('search results: ',  action.value)
         return action.value
       default:
         return state
